@@ -1,5 +1,14 @@
-[[redirects]]
-from = "/*
+# netlify.toml
 
-to = "/index.html" 
-status = 200
+# Redirects
+[[redirects]]
+  from = "/old-page"
+  to = "/new-page"
+  status = 301
+  force = true
+
+# Rewrites
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
