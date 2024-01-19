@@ -2,7 +2,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../src/assest/Images/Rick\ And\ Morty\ Windows\ Wallpaper🥃💥.jpg');
+  /* background-image: url('../src/assest/Images/Rick\ And\ Morty\ Windows\ Wallpaper🥃💥.jpg'); */
+  background-color: rgba(14, 136, 34, 0.15);
   opacity: 1;
 }
 
