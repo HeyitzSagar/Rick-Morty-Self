@@ -9,12 +9,11 @@ import Episodes from "./components/Pages/Episodes";
 import Location from "./components/Pages/Location";
 import CardDetails from "./components/Card/CardDetails";
 
-
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar/>
+        <Navbar />
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -46,8 +45,8 @@ const Home = () => {
   return (
     <div>
       {/* <Navbar/> */}
-      <Search  setPageNumber={setPageNumber} setSearch={setSearch} />
-      <h1 className="text-center text-white fs-1"> Characters</h1>
+      <Search setPageNumber={setPageNumber} setSearch={setSearch} />
+      <h1 className="text-center text-black fs-1"> Characters</h1>
       <div className="container">
         <div className="row">
           <Filters
